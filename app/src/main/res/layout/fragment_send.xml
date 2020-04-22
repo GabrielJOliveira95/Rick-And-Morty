@@ -3,68 +3,63 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_contato">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contatos"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        android:text="Contact"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="(11) 95903-6882"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="112dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="(11) 98806-0095"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="gabrieljoliveira95@gmail.com"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="176dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Celular:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="E-mail:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="176dp" />
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/divider7"
         android:layout_width="72dp"
         android:layout_height="1dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginRight="177dp"
         android:background="@color/cardview_dark_background"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="70dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/github_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/github"
+        android:text="https://github.com/GabrielJOliveira95"
+        android:textSize="0sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider7" />
+
+    <TextView
+        android:id="@+id/linkedln_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/linkedln"
+        android:text="https://www.linkedin.com/in/gabriel-jesus-de-oliveira-b2b779177"
+        android:textSize="0sp"
+        app:layout_constraintStart_toEndOf="@+id/github_contact"
+        app:layout_constraintTop_toBottomOf="@+id/divider7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
