@@ -27,6 +27,11 @@
             android:title="@string/episodies"
             />
 
+        <item
+            android:id="@+id/nav_opening"
+            android:title="@string/opening_video"
+            android:icon="@drawable/ic_play_arrow_black_24dp"/>
+
 
     </group>
 
@@ -35,7 +40,7 @@
 
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/ic_info_black_24dp"
                 android:title="@string/menu_send" />
         </menu>
     </item>

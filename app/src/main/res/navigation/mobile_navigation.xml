@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.cursoandroid.oliveiragabriel.rickandmortydatabook.ui.send.SendFragment"
+        android:name="com.cursoandroid.oliveiragabriel.rickandmortydatabook.ui.send.AboutFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 
@@ -34,5 +34,11 @@
         android:name="com.cursoandroid.oliveiragabriel.rickandmortydatabook.ui.localization.LocalizationFragment"
         android:label="@string/localization"
         tools:layout="@layout/fragment_localization"/>
+
+    <fragment
+        android:id="@+id/nav_opening"
+        android:name="com.cursoandroid.oliveiragabriel.rickandmortydatabook.ui.opening.OpeningFragment"
+        android:label="Opening Video"
+        tools:layout="@layout/fragment_opening"/>
 
 </navigation>

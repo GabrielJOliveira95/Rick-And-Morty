@@ -3,7 +3,8 @@
     package="com.cursoandroid.oliveiragabriel.rickandmortydatabook">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,6 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.episodies.details.DetailsActivity"></activity>
+        <activity
+            android:name=".activity.VideoActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name"

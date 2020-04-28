@@ -3,63 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background_contato">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="173dp"
-        android:layout_marginRight="173dp"
-        android:text="Contact"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/divider7"
-        android:layout_width="72dp"
-        android:layout_height="1dp"
-        android:layout_marginStart="162dp"
-        android:layout_marginLeft="162dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginRight="177dp"
-        android:background="@color/cardview_dark_background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/github_contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/github"
-        android:text="https://github.com/GabrielJOliveira95"
-        android:textSize="0sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
-
-    <TextView
-        android:id="@+id/linkedln_contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="32dp"
-        android:background="@drawable/linkedln"
-        android:text="https://www.linkedin.com/in/gabriel-jesus-de-oliveira-b2b779177"
-        android:textSize="0sp"
-        app:layout_constraintStart_toEndOf="@+id/github_contact"
-        app:layout_constraintTop_toBottomOf="@+id/divider7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
