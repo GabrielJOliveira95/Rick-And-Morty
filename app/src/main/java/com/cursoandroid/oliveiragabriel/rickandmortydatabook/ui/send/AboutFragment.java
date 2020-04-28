@@ -1,7 +1,5 @@
 package com.cursoandroid.oliveiragabriel.rickandmortydatabook.ui.send;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,17 +28,7 @@ public class AboutFragment extends Fragment {
         Element versionElement = new Element();
         versionElement.setTitle("1.0");
 
-        Element whatsapp = new Element();
-        whatsapp.setTitle("Whatsapp");
-        whatsapp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("11959036882"));
-                getActivity().startActivity(intent);
-
-            }
-        });
 
         View view = new AboutPage(getActivity())
                 .setImage(R.drawable.logo)
@@ -54,7 +42,7 @@ public class AboutFragment extends Fragment {
 
                 .addGroup("About Version")
                 .addItem(versionElement)
-                .addItem(whatsapp)
+                
 
                 .create();
 
