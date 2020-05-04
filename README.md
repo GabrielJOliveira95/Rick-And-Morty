@@ -1,5 +1,6 @@
 # Rick-And-Morty
-# This is an DataBook of Rick And Morty animated series. You will can see informations like: characters, localizations and episodies, etc.
+# This is a Rick And Morty animated series DataBook. 
+# You will can see informations like: characters, localizations and episodies, etc.
 
 ## 
 ![main](https://github.com/GabrielJOliveira95/Rick-And-Morty/blob/master/main.gif)
