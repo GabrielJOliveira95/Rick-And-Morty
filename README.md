@@ -1,6 +1,6 @@
 # Rick-And-Morty
 # This is a Rick And Morty animated series DataBook. 
-# You will can see informations like: characters, localizations, episodies, etc, from the API: https://rickandmortyapi.com/.
+# You will can see information like: characters, localizations, episodes, etc, from the API: https://rickandmortyapi.com/.
 
 ## 
 ![main](https://github.com/GabrielJOliveira95/Rick-And-Morty/blob/master/main.gif)
